@@ -11,7 +11,7 @@ function carousel() {
         if (i == 0) {
             div.classList.add("active");
         }
-        img.classList.add("d-block", "w-100");
+        img.classList.add("d-block");
         img.src = "../pics/" + i + ".jpg";
 
         div.append(img);
