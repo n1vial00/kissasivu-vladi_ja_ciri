@@ -3,7 +3,7 @@ window.onload = korkeus();
 function sivunVaihto(osoite) {
     let navLinks = document.querySelectorAll("a.nav-link");
     
-    document.querySelector("#sisSivu").src = "./pages/" + osoite +".html";
+    document.querySelector("#sisSivu").src = "kissasivu-vladi_ja_ciri/pages/" + osoite +".html";
     
     navLinks.forEach(e => e.classList.remove("active"));
     
@@ -18,7 +18,7 @@ function sivunVaihto(osoite) {
             navLinks[2].classList.add("active")
             break;
     }
-    window.history.pushState(osoite, osoite, "/#" + osoite);
+    window.history.pushState(osoite, osoite, "#" + osoite);
 }
 
 
