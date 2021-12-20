@@ -1,6 +1,10 @@
+html {
+    background-color: white;
+}
+
 .carousel-inner {
     max-height: 500px;
-    background-color: black;
+    background-color: rgb(34, 34, 34);
 }
 
 div.carousel-item>img{
