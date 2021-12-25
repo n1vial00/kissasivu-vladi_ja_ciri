@@ -1,9 +1,18 @@
+$bg1: #eeeeee;
+$bg2: #222222;
+$fonts: "Comic-Sans";
+
 html {
-    background-color: #fff;
+    background-color: $bg1;
+}
+
+body {
+    background-color: $bg1;
+    font: $fonts;
 }
 
 .carousel-inner {
-    background-color: rgb(34, 34, 34);
+    background-color: $bg2;
 }
 
 div.carousel-item>img{
