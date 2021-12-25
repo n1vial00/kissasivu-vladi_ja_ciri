@@ -1,9 +1,9 @@
 html {
-  background-color: #eeeeee;
+  background-color: #eeeeee00;
 }
 
 body {
-  background-color: #eeeeee;
+  background-color: #eeeeee00;
   font: "Comic-Sans";
 }
 
@@ -18,4 +18,4 @@ div.carousel-item > img {
   margin: auto;
 }
 
-/*# sourceMappingURL=style-etusivu.css.map */
+/*# sourceMappingURL=style.css.map */
