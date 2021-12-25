@@ -1,6 +1,10 @@
 window.onload = korkeus();
 
 function sivunVaihto(osoite) {
+
+    if(osoite !== "vladimir" && osoite !== "cirilla" && osoite !== "tietoa" && osoite !== "etusivu") {
+        return;
+    }
     let navLinks = document.querySelectorAll("a.nav-link");
     
     document.querySelector("#sisSivu").src = "./pages/" + osoite +".html";
