@@ -18,7 +18,7 @@ function sivunVaihto(osoite) {
             navLinks[2].classList.add("active")
             break;
     }
-    window.history.pushState(osoite, osoite, "#" + osoite);
+    window.history.pushState(osoite, osoite, "?" + osoite);
 }
 
 
@@ -30,3 +30,5 @@ function korkeus() {
     embedMuuttuja.style.height = "calc(100vh - " + navbarHeight + "px - 6px)";
     embedMuuttuja.style.width = "100vw"
 }
+
+sivunVaihto((window.location.search).split("?")[1]);
