@@ -27,6 +27,6 @@ function korkeus() {
     let nav = document.querySelector(".navbar");
 
     let navbarHeight = nav.offsetHeight;
-    embedMuuttuja.style.height = "calc(100vh - " + navbarHeight + "px)";
+    embedMuuttuja.style.height = "calc(100vh - " + navbarHeight + "px - 6px)";
     embedMuuttuja.style.width = "100vw"
 }
